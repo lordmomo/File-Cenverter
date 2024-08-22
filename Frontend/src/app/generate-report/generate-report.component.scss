@@ -1,0 +1,117 @@
+
+button.mat-raised-button {
+    padding: 8px 16px; 
+    margin: 10px; 
+    color: white; 
+  }
+  
+  button.mat-raised-button[color="primary"] {
+    background-color: #673ab7; 
+  }
+  
+  button.mat-raised-button[color="primary"]:hover {
+    background-color: #4b1d84; 
+  }
+  
+  h3 {
+    margin-top: 20px;
+    padding: 8px 16px;
+    color: #7d6026; 
+  }
+  
+  mat-progress-spinner {
+    margin-left: 20px;
+    margin-top: 20px; 
+  }
+  
+  button.mat-raised-button[color="primary"][mat-button]:not([disabled]) {
+    background-color: #673ab7; 
+    color: white;
+  }
+  
+  button.mat-raised-button[color="primary"][mat-button]:not([disabled]):hover {
+    background-color: #4b1d84; 
+  }
+
+  button.mat-raised-button[disabled]{
+    background-color: rgba(103, 58, 183, 0.5) !important;
+    color: rgba(255, 255, 255, 0.7) !important; 
+    cursor: not-allowed; 
+    pointer-events: none; 
+  }
+
+  
+  .preview-download-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+.button-container{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+  }
+
+
+.main-container{
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 8px 16px; 
+  margin-top: 10px;
+
+  margin-left: 10px;
+
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column; 
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 20px; 
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 20px 40px 20px 40px;
+}
+
+
+
+.preview-download-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.center-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;;
+}
+
+.button-with-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.button-with-text .button-text {
+  margin-left: 10px; 
+  color: #7d6026;
+}

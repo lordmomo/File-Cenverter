@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\i44375\\source\\repos\\FileConversion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\service\\serviceimplementation\\documentconverterimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:service\\serviceimplementation\\documentconverterimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\controllers\\documentconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:controllers\\documentconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\utils\\constants\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:utils\\constants\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\service\\serviceimplementation\\reportgeneratorimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:service\\serviceimplementation\\reportgeneratorimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\service\\serviceinterface\\documentconverterinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:service\\serviceinterface\\documentconverterinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\service\\serviceimplementation\\studentreportimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:service\\serviceimplementation\\studentreportimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\service\\serviceinterface\\studentreportinterfae.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:service\\serviceinterface\\studentreportinterfae.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\utils\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:utils\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\utils\\constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:utils\\constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\entity\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:entity\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\service\\serviceinterface\\reportgeneratorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:service\\serviceinterface\\reportgeneratorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|c:\\users\\i44375\\source\\repos\\fileconversion\\controllers\\reportgeneratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D2739F-7649-4771-9809-65ED5383D824}|FileConversion.csproj|solutionrelative:controllers\\reportgeneratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T07:13:20.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportGeneratorImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceImplementation\\ReportGeneratorImplementation.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceImplementation\\ReportGeneratorImplementation.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceImplementation\\ReportGeneratorImplementation.cs",
+              "RelativeToolTip": "Service\\ServiceImplementation\\ReportGeneratorImplementation.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwHUBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T07:33:26.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentConverterInterface.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceInterface\\DocumentConverterInterface.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceInterface\\DocumentConverterInterface.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceInterface\\DocumentConverterInterface.cs",
+              "RelativeToolTip": "Service\\ServiceInterface\\DocumentConverterInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:22:42.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentConverterImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceImplementation\\DocumentConverterImplementation.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceImplementation\\DocumentConverterImplementation.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceImplementation\\DocumentConverterImplementation.cs",
+              "RelativeToolTip": "Service\\ServiceImplementation\\DocumentConverterImplementation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:52:43.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentConverterController.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Controllers\\DocumentConverterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentConverterController.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Controllers\\DocumentConverterController.cs",
+              "RelativeToolTip": "Controllers\\DocumentConverterController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwJ8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:51:45.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Utils\\Constants\\Message.cs",
+              "RelativeDocumentMoniker": "Utils\\Constants\\Message.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Utils\\Constants\\Message.cs",
+              "RelativeToolTip": "Utils\\Constants\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:10:16.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentReportImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceImplementation\\StudentReportImplementation.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceImplementation\\StudentReportImplementation.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceImplementation\\StudentReportImplementation.cs",
+              "RelativeToolTip": "Service\\ServiceImplementation\\StudentReportImplementation.cs",
+              "ViewState": "AQIAAFsCAAAAAAAAAAAuwH8CAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:32:09.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentReportInterfae.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceInterface\\StudentReportInterfae.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceInterface\\StudentReportInterfae.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceInterface\\StudentReportInterfae.cs",
+              "RelativeToolTip": "Service\\ServiceInterface\\StudentReportInterfae.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:43:38.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:28:42.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Utils\\Constants\\Constants.cs",
+              "RelativeDocumentMoniker": "Utils\\Constants\\Constants.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Utils\\Constants\\Constants.cs",
+              "RelativeToolTip": "Utils\\Constants\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:32:01.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Urls.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Utils\\Urls.cs",
+              "RelativeDocumentMoniker": "Utils\\Urls.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Utils\\Urls.cs",
+              "RelativeToolTip": "Utils\\Urls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:52:52.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResponseMessage.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Entity\\ResponseMessage.cs",
+              "RelativeDocumentMoniker": "Entity\\ResponseMessage.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Entity\\ResponseMessage.cs",
+              "RelativeToolTip": "Entity\\ResponseMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:15:41.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportGeneratorInterface.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceInterface\\ReportGeneratorInterface.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceInterface\\ReportGeneratorInterface.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Service\\ServiceInterface\\ReportGeneratorInterface.cs",
+              "RelativeToolTip": "Service\\ServiceInterface\\ReportGeneratorInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:47:00.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReportGeneratorController.cs",
+              "DocumentMoniker": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Controllers\\ReportGeneratorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportGeneratorController.cs",
+              "ToolTip": "C:\\Users\\i44375\\source\\repos\\FileConversion\\Controllers\\ReportGeneratorController.cs",
+              "RelativeToolTip": "Controllers\\ReportGeneratorController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAIAwwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:51:08.723Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

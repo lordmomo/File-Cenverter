@@ -1,0 +1,29 @@
+.inputBox {
+    margin-top: 20px;
+    margin-left: 10px;
+    
+  }
+  
+  .inputBox input[type="file"] {
+    padding: 8px;
+    background-color: #e0f0e3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Inconsolata', 'Sevillana', Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #333;
+    width: 50%; 
+    box-sizing: border-box; 
+  }
+  
+  .inputBox input[type="file"]:hover {
+    background-color: #e0f0e3;
+    border-color: #999;
+  }
+  
+  .inputBox input[type="file"]:focus {
+    outline: none;
+    border-color: #673ab7; 
+    box-shadow: 0 0 3px rgba(103, 58, 183, 0.5); 
+  }
+  

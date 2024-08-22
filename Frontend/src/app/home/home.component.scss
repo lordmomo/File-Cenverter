@@ -1,0 +1,43 @@
+
+ 
+.webMessage {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+// .webMessage h2 {
+//   // color: #5d9732; 
+//   font-size: 1.5em;
+//   margin-bottom: 10px;
+// }
+
+// .webMessage p {
+//   // color: #7d6026; 
+//   font-size: 1em;
+//   margin-top: 10px;
+// }
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+a.mat-raised-button {
+  font-family: 'Inconsolata', 'Sevillana', Roboto, "Helvetica Neue", sans-serif; 
+  padding: 8px 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: #673ab7; 
+  color: white;
+  text-align: center;
+}
+
+a.mat-raised-button:hover {
+  background-color: #4b1d84; 
+  color: white;
+}

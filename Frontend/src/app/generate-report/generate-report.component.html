@@ -1,0 +1,68 @@
+<div class="parent-container">
+
+
+    <div class="total-container">
+
+        <h1>Report Generator</h1>
+        <h3>Generate reports based on selected templates. Please choose a template below.</h3>
+
+        <div class="button-container">
+            <button mat-raised-button color="primary" (click)="onButtonClick(0)">Marksheet Template</button>
+            <button mat-raised-button color="primary" (click)="onButtonClick(1)">Invoice Template</button>
+        </div>
+
+        <div class="main-container" *ngIf="fileInputVisible"> 
+            <div *ngIf="fileInputVisible">
+
+                <h3>Upload excel file for {{selectedAction}} Report</h3>
+                <div *ngFor="let input of fileInputs; let i = index" >
+                    <app-file-input [fileTypes]="fileType" (fileSelected)="onFileSelected($event)" ></app-file-input>
+                </div>
+
+                <button type="button" mat-raised-button color="primary" (click)="onAddFileInput()"
+                    [disabled]="responseCaught">Add More
+                    Files</button>
+
+                <button mat-raised-button color="primary" (click)="onSubmitConvert()" [disabled]="responseCaught">
+                    Generate</button>
+            </div>
+
+            <div *ngIf="progressVisible">
+                <mat-progress-spinner diameter="30" mode="indeterminate"></mat-progress-spinner>
+            </div>
+
+
+            <div *ngIf="responseCaught">
+                <div class="button-with-text">
+                    <h3 class="button-text">Preview available</h3>
+                    <button mat-raised-button color="primary" (click)="previewSinglePDF()">Preview</button>
+                </div>
+
+                <div class="preview-download-buttons">
+                    <h3>Report Generated Successfully. Do you want to download it?</h3>
+
+                    <div class="center-button">
+
+                        <button mat-raised-button color="primary" (click)="downloadGeneratedFiles()"
+                            *ngIf="generatedPdfPaths.length > 0">Download Files</button>
+
+
+                        <button mat-raised-button color="primary" (click)="generateNewReport()">Provide new
+                            File</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <br><br>
+        <div class="main-container"> 
+          <h1>How To Use:</h1>
+          <p>Choose a template of your choice.</p>
+          <p>Provide an excel file(s) that meets the format of the choosen template.</p>
+          <p>Click the generate button to create your report.</p>
+          <p> Once the report is successfully created, you have the ability to preview a document or download all the generated reports in a zip file.</p>
+         <p> When the files are created, the add files and generate buttons will get diabled. To create new reports you can click the Provide new File button.</p>
+        </div>
+    </div>
+</div>

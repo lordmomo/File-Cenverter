@@ -1,0 +1,12 @@
+<span class="operation-complete" matSnackBarLabel>
+    {{data.message}}
+</span>
+
+
+  <span matSnackBarActions>
+    <button mat-button (click)="dismissSnackBar()">{{ data.action }}</button>
+  </span>
+
+  <!-- <span matSnackBarActions>
+    <button mat-button matSnackBarAction (click)="snackBarRef.dismissWithAction()">Ok</button>
+  </span> -->

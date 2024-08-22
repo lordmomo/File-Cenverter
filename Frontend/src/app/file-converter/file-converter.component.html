@@ -1,0 +1,68 @@
+<div class="parent-container">
+
+  <div class="total-container">
+    <h1>File Converter</h1>
+      <h3>Convert media files from one format into another. Please select the target format below</h3>
+    <div class="button-container">
+      
+      <button mat-raised-button color="primary" (click)="onButtonClick(2)">Convert Word to PDF</button>
+
+      <button mat-raised-button color="primary" (click)="onButtonClick(3)">Convert PDF to Word</button>
+
+      <button mat-raised-button color="primary" (click)="onButtonClick(4)">Convert Excel to Word and PDF</button>
+
+    </div>
+    <div class="main-container" *ngIf="fileInputVisible">
+
+      <div *ngIf="fileInputVisible">
+        <h3> Upload files for {{selectedAction}} Conversion </h3>
+
+        
+
+        <div *ngFor="let input of fileInputs; let i = index">
+          <app-file-input  [fileTypes]="fileType" (fileSelected)="onFileSelected($event)"></app-file-input>
+        </div>
+
+        <button type="button" mat-raised-button color="primary" (click)="onAddFileInput()" [disabled]="responseCaught">Add More Files</button>
+
+        <button mat-raised-button color="primary" (click)="onSubmitConvert()" [disabled]="responseCaught"> Convert</button>
+      </div>
+
+      <div *ngIf="progressVisible">
+        <mat-progress-spinner diameter="30" mode="indeterminate"></mat-progress-spinner>
+      </div>
+
+      <div *ngIf="responseCaught" >
+
+        <!-- <div *ngIf="shouldShowPreviewButton()" class="button-with-text">
+          <h3>Preview Available </h3>
+
+          <button  mat-raised-button color="primary"
+            (click)="previewSingleFile()">Preview
+          </button>
+        </div> -->
+
+
+        <div class="preview-download-buttons">
+          <h3>Files Converted Successfully. Do you want to download it?</h3>
+
+          <div class="center-button">
+            <button mat-raised-button color="primary" (click)="downloadGeneratedFiles()"
+            *ngIf="generatedPdfPaths.length > 0">Download Files</button>
+            <button mat-raised-button color="primary" (click)="generateNewReport()">Provide new File</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container"> 
+      <h1>How To Use:</h1>
+      <p>Choose a document conversion your want to perform.</p>
+      <p>Provide the required file(s)</p>
+      <p>Click the convert button to perform the conversion.</p>
+      <p> Once the document has been converted  successfully , you have the ability to preview a document or download all the generated files in a zip file.</p>
+      <p> When the files are created, the add files and convert buttons will get diabled. To convert new files you can click the provide new file button.</p>
+    </div>
+
+  </div>
+</div>

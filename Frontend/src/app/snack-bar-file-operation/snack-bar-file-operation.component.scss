@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  justify-content: space-between; /* Align children to the extremes */
+  align-items: center; /* Center items vertically */
+}
+
+.operation-complete {
+  color: hotpink;
+  flex: 1; /* Make this element take available space */
+}
+
+mat-button {
+  color: white; /* Customize button text color */
+  background-color: #3f51b5; /* Customize button background color */
+}
+
+mat-button:hover {
+  background-color: #e0e0e0; /* Slightly lighter background on hover */
+}
+
+mat-button:focus {
+  outline: none; /* Remove default focus outline */
+}

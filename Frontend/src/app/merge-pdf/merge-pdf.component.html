@@ -1,0 +1,52 @@
+
+  <div class="parent-container">
+
+  <div class="total-container">
+    <h1>PDF Merger</h1>
+    <h3>Merge multiple PDF files into a single PDF. Upload the PDF files below.</h3>
+    <div class="main-container"> 
+      <h2>Upload PDF Files </h2>
+  
+      <div *ngFor="let input of fileInputs; let i = index" >
+        <app-file-input [fileTypes]="fileType" (fileSelected)="onFileSelected($event)"></app-file-input>
+      </div>
+  
+        <div class="button-container">
+        <button type="button" mat-raised-button color="primary" (click)="onAddFileInput()" [disabled]="responseCaught">Add More Files</button>
+      
+        <button type="button" mat-raised-button color="primary" (click)="onSubmit()" [disabled]="responseCaught">Merge PDFs</button>
+      </div>
+  
+      <div *ngIf="progressVisible" class="button-container">
+        <mat-progress-spinner diameter="30" mode="indeterminate"></mat-progress-spinner>
+      </div>
+  
+      <div *ngIf="responseCaught" >
+        <div class="button-with-text">
+          <h3>Preview available</h3>
+          <button mat-raised-button color="primary" (click)="downloadMergedPdf()">Preview</button>
+
+        </div>
+        <div class="preview-download-buttons ">
+          <h3>Files merged successfully. Do you want to download it?</h3>
+          <div class="center-button">
+  
+          <button mat-raised-button color="primary" (click)="downloadGeneratedFiles()">Download Files</button>
+          <button mat-raised-button color="primary" (click)="mergeNewFiles()">Merge New Files</button>
+  
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <br><br>
+    <div class="main-container"> 
+      <h1>Note:</h1>
+      <p>While merging pdf in the free version, the merged PDF file will have atmost 4 pages. </p>
+       <p>Make sure to provide PDF files whose combined pages won't exceed 4 pages or else you'll encounter an error.</p>  
+       <p>For example, if you provide 4 PDF files, each with only one page of content, then the merged PDF will be created with ease. </p>
+    </div>
+    
+  </div>
+  </div>
